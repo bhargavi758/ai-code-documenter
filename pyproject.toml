@@ -10,7 +10,7 @@ readme = "README.md"
 license = {text = "MIT"}
 requires-python = ">=3.10"
 authors = [
-    {name = "Bhargavi", email = "bhargavi@stanford.edu"},
+    {name = "Bhargavi", email = "bhargavi@example.com"},
 ]
 keywords = ["documentation", "ast", "code-analysis", "cli", "developer-tools"]
 classifiers = [
@@ -40,8 +40,8 @@ dev = [
 docgen = "src.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/Bhargavi-Stanford/ai-code-documenter"
-Repository = "https://github.com/Bhargavi-Stanford/ai-code-documenter"
+Homepage = "https://github.com/bhargavi/ai-code-documenter"
+Repository = "https://github.com/bhargavi/ai-code-documenter"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
